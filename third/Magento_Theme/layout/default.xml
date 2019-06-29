@@ -7,8 +7,8 @@
         <!-- <move element="top.search" destination="header.panel"/> -->
         <move element="authorization-link-login" destination="header-wrapper" before="-"/>
         <move element="register-link" destination="header-wrapper" before="-"/>
-   
-        <block class="Magento\Framework\View\Element\Template" name="header.panel" template="Magento_Theme::header.phtml" />
+   <!-- 
+        <block class="Magento\Framework\View\Element\Template" name="header.panel" template="Magento_Theme::header.phtml" /> -->
         <!-- <block class="Magento\Framework\View\Element\Template" name="footer" template="Magento_Theme::footer.phtml" /> -->
     </body>
 </page>
