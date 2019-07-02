@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
 	<section>
-  <div class="new-brands">New Brands</div>
-  <article>
-   
-  </article>
   <nav class="side-part">
    <div class="nav-first">
      <span class="first-nav">My Cart</span><br/>
@@ -20,6 +10,8 @@
    </div>
    <div class="nav-third"> 
      <span class="first-nav">Best Seller</span>
+     <!-- {{block type="theme/product_bestseller" template="catalog/product/bestseller.phtml"}} -->
+     {{block type="catalog/product_bestseller" template="catalog/product/bestseller.phtml"}}
    </div>
    <div class="nav-second">
      <span class="first-nav">Popular tag</span><br/>
@@ -27,15 +19,3 @@
    </div>
   </nav>
 </section>
-<div class="lower-div" link="black"> 
-    <table>
-      <tr>
-        <td><a href="#">Browse All :</a> </td>
-        <td><a href="#">New Store</a> </td>
-        <td><a href="#">Featured Shoes</a></td>
-        <td><a href="#">A-Z</a></td>
-      </tr>
-    </table>
-  </div>
-</body>
-</html>

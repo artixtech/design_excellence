@@ -8,7 +8,7 @@
      .navigation {
       background: black;
       color: white;
-      width: 65%;
+      width: 72%;
        float:left;
   }
   .header.content {
@@ -17,9 +17,10 @@
     .panel{
       background-color: white;
     }
-    .nav-sections{
-     padding: 0% 15%;
-  }
+   .nav-sections {
+    margin-left: 15%;
+    background: #c50505;
+    }
     .page-wrapper{
         background-color:#f7f7f7;
     } 
@@ -58,14 +59,16 @@
     }
     .first-nav{
       font-weight: 600;
+      color:white;
     }
     .second-nav{
       font-size: 11px;
     }
     .column-3 {
-     float:left;
      text-align: center;
-     width: 33.33%;
+     float: left;
+     width: 27.33%;
+     border-right: 1px solid gray;
     }
     .block-compare .block-title strong, .block-reorder .block-title strong, .widget .block-title strong, .block-wishlist .block-title strong {
       font-size: 18px;
@@ -99,7 +102,7 @@
     }
     .block.newsletter {
       float: left !important;
-      padding: 0% 0% 0% 15%;
+      padding: 0% 3% 0% 15%;
       margin: 0%;
       width:20%;
     }
@@ -118,6 +121,7 @@
       color:white;
       font-weight: 600;
       padding-bottom: 3%;
+      text-align: left;
     }
     #newsletter{
       background:#2f2929;
@@ -147,8 +151,14 @@
     .side-border{
       border-right: 1px solid gray;
     }
-    .products-grid.grid{
+    .block.widget.block-products-list.grid{
       width:70%;
+    }
+    .block .widget .block-new-products .grid{
+      width: 75%;
+    }
+    .block, .customer-review .product-details, .block-banners, .block-banners-inline{
+      margin:0px;
     }
     .product-item{
       width:21% !important;
@@ -168,6 +178,70 @@
       margin-top:-5%;
       margin-bottom:2%;
     }
+    .box{
+      width: 63% !important;
+      margin-top: 5%;
+      margin-left: 23%;
+    }
+    .card{
+      position: absolute;
+      margin-top: -3%;
+      width: 4%;
+      transform: translate(-50%, -50%);
+      margin-left: 3%;
+    }
+    .box{
+      width: 50%;
+      margin-top: 5%;
+      margin-left: 23%;
+    }
+    .card{
+      position: absolute;
+      margin-top: -3%;
+      width: 4%;        
+      transform: translate(-50%, -50%);
+      margin-left: 3%;
+    }
+    .freeshipping{
+      width: 53%;
+      margin-left: 43%;
+      margin-top: -22%;
+    }
+    .social{
+      float: right;
+      width: 31%;
+      text-align: left;
+    }
+    .social-image{
+      margin-top: 2%;
+    }
+    .news-para{
+      font-size: 12px;
+      color: #8e8d8d;
+    }
+    .body-link{
+      width: 38%;
+      float: right;
+      margin-right: 20%;
+      font-size: 13px;
+    }
+    .first-link{
+      padding: 0%;
+      width: 23%;
+    }
+    .second-link{
+      padding: 0%;
+      width: 21%;
+      border-right: 1px solid gray;
+    }
+    .third-link{
+      padding: 0px 0px 0px 7px;
+      width: 33%;
+      border-right: 1px solid gray;
+    }
+    .fourth-link{
+      padding: 0px 0px 0px 8px;
+    }
 
   }
 
@@ -184,4 +258,236 @@
     .panel{
         background-color: white;
     } 
+  .header.content {
+    padding: 15px 15% 0;
+  }
+    .panel{
+      background-color: white;
+    }
+   .nav-sections {
+    margin-left: 15%;
+    background: #c50505;
+    }
+    .page-wrapper{
+        background-color:#f7f7f7;
+    } 
+    .page-header .header.panel{
+        background-color:#f7f7f7;
+    }
+    .navigation .level0 > .level-top{
+        color:white;
+    }
+    .side-part {
+      float: right;
+      width: 25%;
+      height: 300px;
+      margin-top: -56%;
+    }
+
+/* Style the list inside the menu */
+     .nav-first{
+        background-color: #ef0000e0;
+        color: white;
+        padding: 3%;
+        border: 1px solid #ccc;
+    }
+    .nav-second{
+      background-color:#060606f7;
+      color: white;
+      padding: 3%;
+      margin-top: 8%;
+      height: 20%;
+    }
+    .nav-third{
+      border: 1px solid black;
+      height: 130%;
+      padding: 2%;
+      margin-top: 8%;
+    }
+    .first-nav{
+      font-weight: 600;
+      color:white;
+    }
+    .second-nav{
+      font-size: 11px;
+    }
+    .column-3 {
+     text-align: center;
+     float: left;
+     width: 27.33%;
+     border-right: 1px solid gray;
+    }
+    .block-compare .block-title strong, .block-reorder .block-title strong, .widget .block-title strong, .block-wishlist .block-title strong {
+      font-size: 18px;
+      font-weight: 600;
+      color: #ff4b00;
+    }
+    .new-brands{
+      font-size: 18px;
+      font-weight: 600;
+      color: #ff4b00;
+      margin-top:-5%;
+      margin-bottom:2%;
+    }
+
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 300px; /* only for demonstration, should be removed */
+    }
+
+/* Clear floats after the columns */
+    section:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+   .page-footer {
+      background-color: #4a4747;
+    }
+    .block.newsletter {
+      float: left !important;
+      padding: 0% 3% 0% 15%;
+      margin: 0%;
+      width:20%;
+    }
+    .page-main {
+        padding: 0% 15%;
+    }
+    .action.primary{
+      background:#ca0606;
+      margin-top:47%;
+      border:1px solid #ca0606;
+    }
+    .footer.content{
+      padding:4px;
+    }
+    .newsletter-text{
+      color:white;
+      font-weight: 600;
+      padding-bottom: 3%;
+      text-align: left;
+    }
+    #newsletter{
+      background:#2f2929;
+      border:1px solid #211e1e;
+      padding:0%;
+    }
+    .field.newsletter{
+      width:90%;
+    }
+    .footer-right{
+      margin: 0 auto;
+      padding: 7px 0% 2% 0%;
+    }
+    .footer-copy{
+      margin: 0 auto;
+      padding: 9px 0% 0% 0%;
+      width: 62%;
+    }
+    table > thead > tr > th, 
+    table > tbody > tr > th, 
+    table > tfoot > tr > th, 
+    table > thead > tr > td, 
+    table > tbody > tr > td, 
+    table > tfoot > tr > td {
+      padding: 0px 10px;
+    }
+    .side-border{
+      border-right: 1px solid gray;
+    }
+    .block.widget.block-products-list.grid{
+      width:70%;
+    }
+    .block .widget .block-new-products .grid{
+      width: 75%;
+    }
+    .block, .customer-review .product-details, .block-banners, .block-banners-inline{
+      margin:0px;
+    }
+    .product-item{
+      width:21% !important;
+    }
+    .nav-sections{
+      background-color: none;
+    }
+    .block-compare .block-title strong, .block-reorder .block-title strong, .widget .block-title strong, .block-wishlist .block-title strong {
+      font-size: 18px;
+      font-weight: 600;
+      color: #ff4b00;
+    }
+    .new-brands{
+      font-size: 18px;
+      font-weight: 600;
+      color: #ff4b00;
+      margin-top:-5%;
+      margin-bottom:2%;
+    }
+    .box{
+      width: 63% !important;
+      margin-top: 5%;
+      margin-left: 23%;
+    }
+    .card{
+      position: absolute;
+      margin-top: -3%;
+      width: 4%;
+      transform: translate(-50%, -50%);
+      margin-left: 3%;
+    }
+    .box{
+      width: 50%;
+      margin-top: 5%;
+      margin-left: 23%;
+    }
+    .card{
+      position: absolute;
+      margin-top: -3%;
+      width: 4%;        
+      transform: translate(-50%, -50%);
+      margin-left: 3%;
+    }
+    .freeshipping{
+      width: 53%;
+      margin-left: 43%;
+      margin-top: -22%;
+    }
+    .social{
+      float: right;
+      width: 31%;
+      text-align: left;
+    }
+    .social-image{
+      margin-top: 2%;
+    }
+    .news-para{
+      font-size: 12px;
+      color: #8e8d8d;
+    }
+    .body-link{
+      width: 38%;
+      float: right;
+      margin-right: 20%;
+      font-size: 13px;
+    }
+    .first-link{
+      padding: 0%;
+      width: 23%;
+    }
+    .second-link{
+      padding: 0%;
+      width: 21%;
+      border-right: 1px solid gray;
+    }
+    .third-link{
+      padding: 0px 0px 0px 7px;
+      width: 33%;
+      border-right: 1px solid gray;
+    }
+    .fourth-link{
+      padding: 0px 0px 0px 8px;
+    }
+
 }
